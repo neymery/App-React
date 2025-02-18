@@ -1,0 +1,29 @@
+.notification {  
+    color: red;  
+  }  
+  
+  .pagination {  
+    margin: 20px 0;  
+  }  
+  
+  .pagination button {  
+    margin: 0 5px;  
+    padding: 5px 10px;  
+  }  
+  
+  .active {  
+    font-weight: bold;  
+    text-decoration: underline;  
+  }
+
+
+ 
+  
+ 
+  
+  th {  
+    background-color: black;  
+    color: white;  
+  }  
+  
+ 

@@ -1,0 +1,204 @@
+/* Conteneur principal */  
+.liste-utilisateurs {  
+  max-width: 100%;  
+  margin: 20px auto;  
+  background-color: #f9f9f9;  
+  padding: 20px;  
+  border-radius: 10px;  
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);  
+}  
+
+.liste-utilisateurs h2 {  
+  text-align: center;  
+  margin-bottom: 20px;  
+}  
+
+/* Tableaux */  
+table {  
+  width: 100%;  
+  border-collapse: collapse;  
+  margin-top: 10px;  
+}  
+
+th, td {  
+  border: 1px solid #ddd;  
+  padding: 10px;  
+  text-align: center;  
+}  
+
+th {  
+  background-color: black;  
+  color: white;  
+}  
+
+tr:nth-child(even) {  
+  background-color: #f2f2f2;  
+}  
+
+tr:hover {  
+  background-color: #ddd;  
+}  
+
+/* Boutons d'action */  
+.edit-button, .delete-button, .info-button {  
+  padding: 5px 10px;  
+  border: none;  
+  border-radius: 5px;  
+  cursor: pointer;  
+  font-size: 14px;  
+}  
+
+.edit-button {  
+  background-color: #ffc107;  
+  color: white;  
+  margin-right: 5px;  
+}  
+
+.delete-button {  
+  background-color: #dc3545;  
+  color: white;  
+}  
+
+.info-button{
+  background-color:  rgb(27, 165, 165);  
+  color: white; 
+  margin-left: 5px;  
+}
+
+.edit-button:hover {  
+  background-color: #a88519;  
+}  
+
+.delete-button:hover {  
+  background-color: #85242e;  
+}  
+
+.info-button:hover{
+  background-color:  rgb(23, 97, 97);   
+}
+
+/* Erreurs */  
+.error {  
+  color: red;  
+  text-align: center;  
+}  
+
+/* Pagination */  
+.pagination {  
+  display: flex;  
+  align-items: center;  
+  justify-content: center;  
+  margin-top: 20px;  
+}  
+
+.page-button {  
+  background-color: #4CAF50;  
+  color: white;  
+  border: none;  
+  padding: 5px 20px;  
+  margin: 0 10px;  
+  cursor: pointer;  
+  border-radius: 5px;  
+  transition: background-color 0.3s;  
+}  
+
+.page-button:hover {  
+  background-color: #45a049;  
+}  
+
+.page-button:disabled {  
+  background-color: #ccc;  
+  cursor: not-allowed;  
+}  
+
+/* Avatar utilisateur */  
+.user-avatar {  
+  width: 40px; /* Ajustez selon vos besoins */  
+  height: 40px; /* Ajustez selon vos besoins */  
+  border-radius: 50%; /* Avatar rond */  
+}  
+
+/* Boutons de rôle */  
+.role-button {  
+  padding: 5px 10px;  
+  border: none;  
+  border-radius: 12px;  
+  color: white;  
+  font-size: 14px;  
+  cursor: pointer;  
+  transition: background-color 0.3s ease;  
+}  
+
+.role-button.admin {  
+  color: rgb(24, 136, 24);  
+  background-color: rgba(16, 233, 16, 0.322);  
+}  
+
+.role-button.user {  
+  color: blue;  
+  background-color: rgb(202, 202, 233);  
+}  
+
+.role-button.user:hover {  
+  opacity: 0.8;  
+  background-color: blue; 
+  color: white; 
+}  
+
+.role-button.admin:hover {  
+  opacity: 0.8;  
+  background-color: green;  
+  color: white; 
+
+}  
+
+/* Modal */  
+.modal {  
+  display: flex;  
+  justify-content: center;  
+  align-items: center;  
+  position: fixed;  
+  top: 0;  
+  left: 0;  
+  right: 0;  
+  bottom: 0;  
+  background-color: rgba(0, 0, 0, 0.5);  
+  z-index: 1000;  
+}  
+
+ 
+.modal-content {  
+  background-color: white;  
+  padding: 20px;  
+  border-radius: 5px;  
+  width: 400px; /* Largeur ajustée pour plus d'espace */  
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  
+  text-align: center; /* Centre le texte de la modal */  
+  position: relative; /* Pour positionner le bouton de fermeture */  
+}  
+
+.modal-content img {  
+  width: 100px; /* Taille de la photo */  
+  height: 100px; /* Taille de la photo */  
+  border-radius: 50%; /* Pour garder la photo ronde */  
+  margin: 0 auto 20px; /* Centre l'image et espace en bas */  
+  display: block; /* Assure que l'image est un bloc pour le centrage */  
+}  
+
+.close {  
+  cursor: pointer;  
+  font-size: 40px;  
+  color: white; /* Couleur rouge pour le bouton de fermeture */  
+  background-color: red;
+  position: absolute; /* Positionnement absolu pour le placer en haut à droite */  
+  top: 10px; /* Distance du haut */  
+  right: 10px; /* Distance de la droite */  
+  margin-left: auto; /* Pour assurer qu'il reste à droite */  
+ 
+}  
+
+/* Aligner les autres éléments à gauche */  
+.modal-content p {  
+  text-align: left; /* Aligne le texte à gauche */  
+  margin: 5px 0; /* Espace vertical entre les éléments */  
+}

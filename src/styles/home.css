@@ -1,0 +1,30 @@
+ 
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;  
+  color: #343a40;  
+  padding: 20px;
+  font-family: 'Arial', sans-serif;  
+}
+
+.welcome-text {
+  font-size: 2.5rem;  
+  margin-bottom: 10px;
+}
+
+.dashboard-text {
+  font-size: 1.5rem;  
+  margin-bottom: 20px;
+}
+
+.admin-info {
+  text-align: center;  
+  font-size: 1.1rem;  
+  color: #6c757d; 
+  padding: 10px;
+  border-top: 1px solid #dee2e6;  
+  margin-top: 20px;
+}

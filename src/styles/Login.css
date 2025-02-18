@@ -1,0 +1,78 @@
+/* Conteneur principal */
+.login-container {
+  width: 100%;
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Titre */
+h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Formulaire */
+.login-form input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.login-form input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.login-form button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Erreurs */
+.error-messages {
+  color: #ff4d4d;
+  font-size: 14px;
+  margin-top: 10px;
+  text-align: left;
+}
+
+.error-messages li {
+  margin-bottom: 5px;
+}
+
+/* Message de blocage */
+.lockout {
+  color: #ff0000;
+  font-weight: bold;
+}
+
+/* Lien vers la création de compte */
+.create-account-link {
+  display: block;
+  margin-top: 15px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.create-account-link:hover {
+  text-decoration: underline;
+}
