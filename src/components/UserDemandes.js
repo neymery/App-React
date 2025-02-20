@@ -34,7 +34,7 @@ const UserDemandes = () => {
           description,
           statut: "En attente",
           utilisateurId: id,
-          dateCreation: new Date() ,  
+          dateCreation: new Date().toLocaleDateString() ,  
         };
 
         if (!user.demandes) {
